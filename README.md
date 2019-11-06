@@ -4,6 +4,6 @@ This is a group project for our HCI course (COMP 3020) in University of Manitoba
 
 ### Contributors
 * [Chris Ciceron](https://github.com/chrisciceron) 🙃
-* Charina Duenas ♥️
+* [Charina Duenas](https://github.com/pandorasjuicebox) ♥️
 * [Kai Zhao](https://github.com/TwoThreeTree) ☀️
 * [Emily Nguyen](https://github.com/emily0906) 👽
