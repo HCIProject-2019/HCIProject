@@ -1,12 +1,9 @@
 # HCIProject
-HCIProject
-this is a group project for HCI course in university of manitoba
+<h1>HCIProject</h1>
+<h3>This is a group project for our HCI course (COMP 3020) in University of Manitoba </h3>
 
-
-
-members involed are: 
-
-RANDELL CHRISTOPHER CICERON
-CHARINA DUENAS
-YUANKAI ZHAO
-EMILY NGUYEN
+The members involed are:
+* Chris Ciceron 
+* Charina Duenas
+* Kai Zhao 
+* Emily Nguyen
