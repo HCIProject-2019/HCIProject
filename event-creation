@@ -1,0 +1,63 @@
+<form action="http://www.example.com/login.php">
+    <DIV class= "Description"style="position: absolute; top:48px; left: 700px; width:200px; height:25px">
+            <p>Description </p>
+            <textarea name="comments" cols="30" rows="30">Enter
+            your comments...</textarea>
+</DIV>
+
+
+<DIV class= "uploadPic" style="position: absolute; top:490px; left: 500px; width:200px; height:25px">
+    <p>Upload a picture </p>
+    <input type="file" name="user-pic" /><br />
+    <input type="submit" value="Upload" />
+
+</DIV>
+
+<DIV class= "uploadVideo" style="position: absolute; top:490px; left: 300px; width:200px; height:25px">
+    <p>Upload a video </p>
+    <input type="file" name="user-video" /><br />
+    <input type="submit" value="Upload" />
+
+</DIV>
+
+
+<DIV class = "selectDate" style="position: absolute; top:200px; left: 300px; width:200px; height:25px">
+        <label for="event-date">Event date<hr>:</label>
+        <input type="date" name="event-date" />
+        
+
+</DIV>
+
+<DIV class = "selectTime" style="position: absolute; top:300px; left: 300px; width:200px; height:25px">
+        <label for="event-time">Event time <hr> From:<br></label>
+        <input type="time" name="event-time" />
+        <br>
+        <label for="event-time">To:<br></label>
+        <input type="time" name="event-time" />
+        
+        
+
+</DIV>
+
+<DIV class = "price" style="position: absolute; top:430px; left: 300px; width:200px; height:5px">
+        <label for="event-price">Cost(optional)  $CAD<hr>:</label>
+        <input type="price" name="event-price" />
+    
+        
+
+</DIV>
+
+
+<DIV class ="submit " style= "position: absolute; top:560px; left: 780px;" >
+    <p> press submit when you finish</p>
+    <input type="submit" value="Submit" />
+</DIV>
+
+
+<DIV class= "name"style="position: absolute; top:48px; left: 300px; width:10px; height:10px">
+        <p>Event name </p>
+        <textarea name="event-name" cols="20" rows="1">Enter your comments...</textarea>
+</DIV>
+
+
+</form>
