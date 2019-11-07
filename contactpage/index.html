@@ -16,22 +16,58 @@
         color: brown;
     }
 
-    a:visited {
-        color: purple;
-    }
-
     a:hover {
         color: brown;
+    }
+
+     /* Navigation bar style, may be moved to an external CSS file in the future*/
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+         /* placeholder colour */
+        background-color: grey;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 30px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        /* placeholder colour */
+        background-color: burlywood;
+    }
+
+    .active {
+         /* placeholder colour */
+        background-color: black;
     }
 
 </style>
 
 <body style="font-family: Arial, Arial, Helvetica, sans-serif;">
-        <header>
-            <h1>CONTACT US</h1>
-        </header>
+    <header>
+        <h1>CONTACT US</h1>
+    </header>
 
-    
+    <ul>
+        <!-- Replace # with the page link-->
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Attractions</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#contact" class= "active">Contact</a></li>
+    </ul> 
+
+
     <div class= "contact-info"style="position: absolute; top:400px; left: 200px; width:500px; height:25px">
         <h2>Questions? Suggestions? </h2>
         <!--Change the webmaster email to the whatever email we come up with.-->
