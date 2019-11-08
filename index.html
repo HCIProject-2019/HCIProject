@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+
+    <head id="home">
+    <title> Discover the Peg </title>
+    <meta name="description" content="A system for new people in Winnipeg" />
+    <meta name="keywords" content="Winnipeg, Manitoba, Canada, events, tourist attractions" />
+    <link href = "assets/css/main.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap" rel="stylesheet">
+    </head>
+
+    <script src=" assets/js/main.js"></script>
+
+    <body>
+    <header>
+        <img id="logo" src="assets/img/logos/logo.png" alt="Discover the Peg logo">
+        <h1><p><b>DISCOVER THE PEG</b> </p></h1>
+
+    </header>
+    <div class="menu">
+        <!-- menu items are not final yet, discuss with groupmates or see Milestone 2 feedback-->
+        <ul>
+            <li><a class ="active" href="#home">Home</a></li>
+            <li><a href="events/index.html">Events</a></li>
+            <li><a href="sights/index.html">Sights to see</a></li>
+            <li><a href="sights/index.html">Places to shop</a></li>
+            <li><a href="sights/index.html">Something</a></li>
+            <li><a href="contact/index.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div id="main-slideshow-container">
+        <div class="slides fade">
+            <!-- tentative photo-->
+            <img src="assets/img/home/HumanRightsMuseum.JPG" style="width:100%"
+                 alt = "Human Rights Museum">
+            <div class="photo-text">Human Rights Museum</div>
+        </div>
+        <div class="slides fade">
+            <img src="assets/img/home/ProvencherBridge.jpg" style="width:100%"
+                 alt = "Provencher Bridge">
+            <div class="photo-text">Provencher Bridge</div>
+        </div>
+        <div class="slides fade">
+            <img src="assets/img/home/AssiniboinePark.jpg" style="width:100%"
+                 alt = "Assiniboine Park">
+            <div class="photo-text">Assiniboine Park</div>
+        </div>
+        <div class="slides fade">
+            <img src="assets/img/home/WinnipegArtGallery.jpg" style="width:100%"
+                 alt = "Winnipeg Art Gallery">
+            <div class="photo-text">Winnipeg Art Gallery</div>
+        </div>
+            <!-- the previous and next buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+    </div>
+
+    <!-- for the clickable dots -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currSlide(1)"></span>
+        <span class="dot" onclick="currSlide(2)"></span>
+        <span class="dot" onclick="currSlide(3)"></span>
+        <span class="dot" onclick="currSlide(4)"></span>
+    </div>
+
+    <div id="weather">
+        <a class="weatherwidget-io" href="https://forecast7.com/en/49d90n97d14/winnipeg/" data-label_1="WINNIPEG, MB" data-label_2="WEATHER" data-theme="original" >WINNIPEG WEATHER</a>
+        <script>
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+            if(!d.getElementById(id)){js=d.createElement(s);js.id=id;
+            js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);
+            }}(document,'script','weatherwidget-io-js');
+        </script>
+    </div>
+
+    <div id="article">
+        <h1></h1>
+    </div>
+
+    <div id = "calendar">
+        <!-- embedded Google Calendar -->
+        <iframe src="https://calendar.google.com/calendar/b/5/embed?height=575&amp;wkst=1&amp;bgcolor=%23009688&amp;ctz=America%2FWinnipeg&amp;src=ZGlzY292ZXJ0aGVwZWdAZ21haWwuY29t&amp;color=%2322AA99&amp;showTabs=0&amp;showPrint=0&amp;showCalendars=0&amp;title=Upcoming%20Events&amp;showNav=0&amp;showTitle=1" style="border-width:0" width="525" height="575" frameborder="0" scrolling="no"></iframe>
+    </div>
+
+    <footer>
+    <p>#DiscoverThePeg</p>
+
+    </footer>
+
+    </body>
+
+
+
+</html>

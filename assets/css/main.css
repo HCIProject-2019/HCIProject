@@ -1,0 +1,148 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    font-family: 'Montserrat', sans-serif;
+    font-family: Georgia, Verdana;
+    top: 0;
+    left:0;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0,183,183);
+}
+
+img {
+    vertical-align: middle;
+}
+
+li{
+    display: inline;
+}
+
+li a{
+    padding: 10px 50px;
+    text-decoration: none;
+    color: white;
+}
+
+li a.active{
+    background-color: brown;
+}
+
+li a:hover:not(.active){
+    background-color: black;
+}
+
+.slides{
+    display: none;
+    margin-top: 5px;
+}
+
+/*Slideshow container for the main page*/
+.main-slideshow-container{
+    position: relative;
+    margin: 5px;
+}
+
+.photo-text{
+    text-align: center;
+    padding: 5px 5px;
+    bottom: 2px;
+    width: 100%;
+    position: absolute;
+    border-radius: 0 4px 4px 0;
+}
+
+.prev,.next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next{
+    right: 0;
+    border-radius: 10px;
+}
+
+.prev{
+    left: 0;
+    border-radius: 10px;
+}
+
+.dot{
+    cursor: pointer;
+    display: inline-block;
+}
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: 0.2}
+    to   {opacity: 1.0}
+}
+
+@keyframes fade {
+    from {opacity: 0.2}
+    to   {opacity: 1.0}
+}
+
+#weather {
+    width: 35%;
+    float: left;
+    padding: 2px;
+    text-align: right;
+    height: 205px;
+    margin-bottom: 10px;
+    background-color: rgb(0,183,183);
+}
+
+#article {
+    width: 60%;
+    padding: 2px;
+    float: right;
+    height: 800px;
+    background-color: rgb(0,183,183);
+}
+
+#calendar{
+    width: 35%;
+    float: left;
+    height: 575px;
+    margin-top: 5px;
+    margin-left: 0px;
+    padding: 2px;
+    background-color: rgb(0,183,183);
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    clear: both;
+    height: 150px;
+}
