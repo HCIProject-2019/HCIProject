@@ -5,6 +5,7 @@ This is a group project for our HCI course (COMP 3020) in University of Manitoba
 ### Parts to work
 * Main page (Chris)
 * Logo & Contact Page (Charina) 
+* Attractions (Emily)
 
 ### Contributors
 * [Chris Ciceron](https://github.com/chrisciceron) 🙃
