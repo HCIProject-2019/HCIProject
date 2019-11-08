@@ -14,7 +14,7 @@ header{
     text-align: center;
 }
 
-.menu {
+ul {
     list-style-type: none;
     text-align: center;
     overflow: hidden;
@@ -28,13 +28,17 @@ img {
 }
 
 li{
-    display: inline;
+    /*display: inline;*/
+    padding: 10px 30px;
+    float: left;
 }
 
 li a{
-    padding: 10px 50px;
-    text-decoration: none;
+    display: block;
+    padding: 10px 30px;
     color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
 li a.active{
