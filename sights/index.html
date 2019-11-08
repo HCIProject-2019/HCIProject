@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Attractions</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="gallery.css"
+</head>
+<body>
+
+<div class="header">
+  <h2>ATTRACTIONS</h2>
+</div>
+<div class="row">
+<div class="leftcolumn">
+<!---Historical slideshow--->
+<div class="card">
+<p><b>Historical places...</b><a href=""><button> more</button></a></p>
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="humanright.jpg" style="width:100%">
+  <div class="text">Human Right museum</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="fort.jpg" style="width:100%">
+  <div class="text">Fort Gibraltar</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="sevenOaks.jpg" style="width:100%">
+  <div class="text">Seven Oaks museum</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="boniface.jpg" style="width:100%">
+  <div class="text">Saint-Boniface museum</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="riel.jpg" style="width:100%">
+  <div class="text">Riel House</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="cityhall.jpg" style="width:100%">
+  <div class="text">Saint-Boniface city hall</div>
+</div>
+<!---button for move left and right--->
+<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+</div>
+
+<!---Galleries--->
+<div class="card">
+<p><b>Galleries...</b><a href=""><button> more</button></a></p>
+<div class="slideshow-container">
+  <div class="aSlide fade">
+    <div class="numbertext">1 / 6</div>
+    <img src="martha.jpg" style="width:100%">
+    <div class="text">Martha street studio</div>
+  </div>
+  <div class="aSlide fade">
+    <div class="numbertext">2 / 6</div>
+    <img src="cre8ery.jpg" style="width:100%">
+    <div class="text">CRE8ERY Gallery</div>
+  </div>
+  <div class="aSlide fade">
+    <div class="numbertext">3 / 6</div>
+    <img src="platform.jpg" style="width:100%">
+    <div class="text">Platform Gallery</div>
+  </div>
+  <div class="aSlide fade">
+    <div class="numbertext">4 / 6</div>
+    <img src="mayberry.jpg" style="width:100%">
+    <div class="text">Mayberry Fine Art Gallery</div>
+  </div>
+  <div class="aSlide fade">
+    <div class="numbertext">5 / 6</div>
+    <img src="urban.jpg" style="width:100%">
+    <div class="text">Urban Shaman</div>
+  </div>
+  <div class="aSlide fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="o.jpg" style="width:100%">
+    <div class="text">Gurevich Fine Art Gallery</div>
+  </div>
+<!---button for move left and right--->
+<a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+</div>
+
+<!---Nature and Park--->
+<div class="card">
+<p><b>Nature and Park...</b><a href=""><button> more</button></a></p>
+<div class="slideshow-container">
+  <div class="Slides fade">
+    <div class="numbertext">1 / 6</div>
+    <img src="zoo.jpg" style="width:100%">
+    <div class="text">Assiniboine Zoo</div>
+  </div>
+  <div class="Slides fade">
+    <div class="numbertext">2 / 6</div>
+    <img src="leo.jpg" style="width:100%">
+    <div class="text">Leo Mol sculpture Garden</div>
+  </div>
+  <div class="Slides fade">
+    <div class="numbertext">3 / 6</div>
+    <img src="kpbridge.jpg" style="width:100%">
+    <div class="text">Kildonan Park</div>
+  </div>
+  <div class="Slides fade">
+    <div class="numbertext">4 / 6</div>
+    <img src="fortwhyte.jpg" style="width:100%">
+    <div class="text">Fort Whyte Alive Park</div>
+  </div>
+  <div class="Slides fade">
+    <div class="numbertext">5 / 6</div>
+    <img src="king.jpg" style="width:100%">
+    <div class="text">King Park</div>
+  </div>
+  <div class="Slides fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="english.jpg" style="width:100%">
+    <div class="text">English Garden</div>
+  </div>
+<!---button for move left and right--->
+<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+</div>
+</div>
+</div>
+<!---add about us--->
+<div class="rightcolumn">
+  <div class="card">
+    <h3>About this page</h3>
+    <p>This page includes many exciting features which help people to cope with the place better, such as: Place to go around Winnipeg, or some place for you to enjoy your free time </p>
+  </div>
+</div>
+</div>
+
+<!---add some footer--->
+<div class="footer">
+  <h2><b>some footers should be here</b></h2>
+</div>
+<!--- javascript for the slide in each box moving--->
+<script>
+var slideIndex = [1,1,1];
+var slideId = ["mySlides", "aSlide", "Slides"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex[no]-1].style.display = "block";
+}
+</script>
+
+</body>
+</html>
