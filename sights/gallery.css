@@ -3,21 +3,18 @@
 .header {
   background-color: rgb(211,211,211);
   padding: 10px;
-  font-family: "Bradly Hand",monospace;
   text-align: center;
 }
 
 .header h1{
   background-color: white;
   padding: 30px;
-  font-family: "Bradly Hand",monospace;
   text-align: center;
   font-size: 50px;
 }
 
 * {box-sizing: border-box}
 body {
-  font-family: "Brandly Hand", monospace;
   padding: 10px;
   background-color:black;
 }
