@@ -1,7 +1,7 @@
 * { box-sizing:border-box}
 /* header*/
 .header {
-  background-color: #bfbfeb;
+  background-color: rgb(211,211,211);
   padding: 10px;
   font-family: "Bradly Hand",monospace;
   text-align: center;
@@ -19,7 +19,7 @@
 body {
   font-family: "Brandly Hand", monospace;
   padding: 10px;
-  background-color: #ececf9;
+  background-color:black;
 }
 
 .mySlides, .aSlide , .Slides{display: none}
@@ -135,7 +135,7 @@ img {vertical-align: middle;}
 .rightcolumn {
   float: left;
   width: 25%;
-  background-color: #ececf9;
+  background-color: black;
   padding-left: 20px;
 }
 
@@ -150,7 +150,7 @@ img {vertical-align: middle;}
 .footer{
   padding: 20px;
   text-align: center;
-  background: #bfbfeb;
+  background: rgb(211,211,211);
   margin-top: 20px;
 }
 
