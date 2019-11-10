@@ -1,11 +1,29 @@
 
+  .logging{
+    display: solid;
+    margin-left: 800px;
+    margin-right: 2px;
+    color: whitesmoke;
+    background: rgba(87, 84, 86,.8);;
+
+    padding-top: 0px;
+    padding-bottom: 400px;
+    padding-left: 50px;
+    padding-right: 50px; 
+  }
+
+  h1{
+    color: whitesmoke;
+  }
   input[type=text], input[type=password] {
-    width: 80%;
+    width: 100%;
     padding: 10px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
+    outline: 0px;
     box-sizing: border-box;
+    
   }
 
   button {
