@@ -1,16 +1,21 @@
-* {box-sizing: border-box
-  
 
-}
 
 /* Add padding to containers */
 .register {
-  padding: 16px;
+  display: solid;
+  margin-left: 777px;
+  margin-right: 104px;
+  color: whitesmoke;
+  background: rgb(75, 92, 134);
+  padding-top: 10px;
+  padding-bottom: 600px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
-  width: 100%;
+  width: 90%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-table;
@@ -38,10 +43,10 @@ hr {
   background-color: #4CAF50;
   color: white;
   padding: 16px 20px;
-  margin: 8px 0;
+  margin: 8px 22px;
   border: none;
   cursor: pointer;
-  width: 30%;
+  width: 40%;
   opacity: .8;
 }
 
@@ -49,10 +54,10 @@ hr {
   background-color: red;
   color: white;
   padding: 16px 20px;
-  margin: 10px 0;
+  margin: 10px 0px;
   border: none;
   cursor: pointer;
-  width: 30%;
+  width: 40%;
   opacity: .8;
 }
 
@@ -72,10 +77,10 @@ hr {
   background-color:blue;
   color: white;
   padding: 16px 20px;
-  margin: 10px 0;
+  margin: 10px 22px;
   border: none;
   cursor: pointer;
-  width: 30%;
+  width: 87%;
   opacity: .8;
 
 }
