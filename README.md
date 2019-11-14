@@ -9,7 +9,7 @@ This is a group project for our HCI course (COMP 3020) in University of Manitoba
 * Register + login page (Kai)
 * Create + update event (Kai)
 * Event page (Charina)
-* Vertical hi-fi (event page task + register page task)
+* Vertical hi-fi (event page task + sight to see page task)
 
 ### Contributors
 * [Chris Ciceron](https://github.com/chrisciceron) 🙃
