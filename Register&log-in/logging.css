@@ -1,52 +1,64 @@
 
   .logging{
     display: solid;
-    margin-left: 800px;
-    margin-right: 2px;
+    margin-left: 777px;
+    margin-right: 104px;
     color: whitesmoke;
     background: rgba(87, 84, 86,.8);;
 
-    padding-top: 0px;
-    padding-bottom: 400px;
+    padding-top: 10px;
+    padding-bottom: 530px;
     padding-left: 50px;
-    padding-right: 50px; 
+    padding-right: 50px;
   }
 
   h1{
     color: whitesmoke;
   }
   input[type=text], input[type=password] {
-    width: 100%;
-    padding: 10px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    outline: 0px;
-    box-sizing: border-box;
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-table;
+    border: darkblue;
+    background: #f1f1f1;
     
   }
-
-  button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    margin: 10px 0;
-    border: none;
-    cursor: pointer;
-    width: 40%;
-  }
-  
   button:hover {
     opacity: 0.8;
   }
   
-
+  
+  
   .cancelbtn {
+    background-color: red;
     color: white;
-    padding: 10px 20px;
-    margin: 10px 0;
+    padding: 16px 20px;
+    margin: 8px 10px;
     border: none;
     cursor: pointer;
     width: 40%;
-    background-color: #f44336;
+    opacity: .8;
+  }
+
+  .registerbtn{
+    background-color: #4CAF50;
+    color: white;
+  padding: 16px 20px;
+  margin: 10px 22px;
+  border: none;
+  cursor: pointer;
+  width: 87%;
+    opacity: .8;
+  }
+
+  .login{
+    background-color: blue;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 18px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    opacity: .8;
   }
