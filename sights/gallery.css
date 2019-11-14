@@ -15,6 +15,7 @@
 body {
   padding: 10px;
   background-color:white;
+  font-family: Arial, Arial, Helvetica, sans-serif
 }
 
 .mySlides, .aSlide , .Slides{display: none}
