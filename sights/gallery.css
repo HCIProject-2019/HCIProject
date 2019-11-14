@@ -16,7 +16,7 @@
 * {box-sizing: border-box}
 body {
   padding: 10px;
-  background-color:black;
+  background-color:white;
 }
 
 .mySlides, .aSlide , .Slides{display: none}
@@ -132,7 +132,7 @@ img {vertical-align: middle;}
 .rightcolumn {
   float: left;
   width: 25%;
-  background-color: black;
+  background-color: white;
   padding-left: 20px;
 }
 
@@ -151,4 +151,43 @@ img {vertical-align: middle;}
   margin-top: 20px;
 }
 
-/*
+/* Link normal colour, visited, and when hovered*/
+a {
+   color: brown;
+}
+
+a:hover {
+   color: brown;
+}
+
+/* Navigation bar style, may be moved to an external CSS file in the future*/
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+    /* placeholder colour */
+   background-color: grey;
+}
+
+li {
+   float: left;
+}
+
+li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 10px 30px;
+   text-decoration: none;
+}
+
+li a:hover {
+   /* placeholder colour */
+   background-color: burlywood;
+}
+
+.active {
+    /* placeholder colour */
+   background-color: black;
+}
