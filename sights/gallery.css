@@ -1,16 +1,14 @@
 * { box-sizing:border-box}
 /* header*/
 .header {
-  background-color: rgb(211,211,211);
-  padding: 10px;
-  text-align: center;
-}
-
-.header h1{
-  background-color: white;
-  padding: 30px;
-  text-align: center;
-  font-size: 50px;
+    /* PLACEHOLDER COLOUR; feel free to change */
+    /*background-color: rgb(0,183,183);*/
+    background: url("img/night_photo_banner.png");
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
 }
 
 * {box-sizing: border-box}
@@ -147,7 +145,7 @@ img {vertical-align: middle;}
 .footer{
   padding: 20px;
   text-align: center;
-  background: rgb(211,211,211);
+  background: grey;
   margin-top: 20px;
 }
 
