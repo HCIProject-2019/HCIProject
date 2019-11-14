@@ -6,6 +6,10 @@ This is a group project for our HCI course (COMP 3020) in University of Manitoba
 * Main page (Chris)
 * Logo & Contact Page (Charina) 
 * Attractions (Emily)
+* Register + login page (Kai)
+* Create + update event (Kai)
+* Event page (Charina)
+* Vertical hi-fi (event page task + register page task)
 
 ### Contributors
 * [Chris Ciceron](https://github.com/chrisciceron) 🙃
