@@ -128,13 +128,3 @@ body {
     text-align: left;
   }
 }
-
-/*align the picture in the middle*/
-img {vertical-align: middle;}
-
-/*card effect*/
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}

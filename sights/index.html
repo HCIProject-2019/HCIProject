@@ -4,21 +4,31 @@
 <title>Sights</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="gallery.css">
+<link rel="stylesheet" type="text/css" href="human.css">
 </head>
 <body>
 
 <div class="header">
   <h1>SIGHTS TO SEE</h1>
 </div>
-<ul>
-    <!-- Replace # with the page link-->
-    <li><a href="../index.html">Home</a></li>
-    <li><a href="#">Events</a></li>
-    <li><a href="index.html" class= "active">Sights to See</a></li>
-    <li><a href="#">Places to Shop</a></li>
-    <li><a href="#">Something</a></li>
-    <li><a href="../contactpage/index.html">Contact Us</a></li>
-</ul>
+<div class="topnav" id="myTopnav">
+  <a href="../index.html">Home</a>
+  <a href="#">Events</a>
+  <a href="#">Places to Shop</a>
+  <a href="#">Something</a></li>
+  <div class="dropdown">
+    <button class="dropbtn">Sights to See
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="historical.html">Historical places</a>
+      <a href="#">Galleries</a>
+      <a href="#">Nature and Parks</a>
+    </div>
+  </div>
+  <a href="../contactpage/index.html">Contact Us</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
 <div class="row">
 <div class="leftcolumn">
 <!---Historical slideshow--->
@@ -167,6 +177,15 @@ function showSlides(n, no) {
      x[i].style.display = "none";
   }
   x[slideIndex[no]-1].style.display = "block";
+}
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
 }
 </script>
 

@@ -6,6 +6,7 @@
     <meta name="description" content="A system for new people in Winnipeg" />
     <meta name="keywords" content="Winnipeg, Manitoba, Canada, events, tourist attractions" />
     <link href = "assets/css/main.css" type="text/css" rel="stylesheet" />
+    <link href="menuBar.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
@@ -14,16 +15,23 @@
     <h1><b>DISCOVER THE PEG</b></h1>
 </header>
 
-<div class="menu">
-    <!-- menu items are not final yet, discuss with groupmates or see Milestone 2 feedback-->
-    <ul>
-        <li><a class ="active" href="#home">Home</a></li>
-        <li><a href="events/index.html">Events</a></li>
-        <li><a href="sights/index.html">Sights to see</a></li>
-        <li><a href="sights/index.html">Places to shop</a></li>
-        <li><a href="Register&log-in/logging.html">Log-in or Sign-up</a></li>
-        <li><a href="contactpage/index.html">Contact Us</a></li>
-    </ul>
+<div class="topnav" id="myTopnav">
+  <a class="active" href="../index.html">Home</a>
+  <a href="#">Events</a>
+  <a href="#">Places to Shop</a>
+  <a href="#">Something</a></li>
+  <div class="dropdown">
+    <button class="dropbtn">Sights to See
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="historical.html">Historical places</a>
+      <a href="#">Galleries</a>
+      <a href="#">Nature and Parks</a>
+    </div>
+  </div>
+  <a href="../contactpage/index.html">Contact Us</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
 <div class="slideshow">
@@ -105,6 +113,16 @@
 </footer>
 
 <script src=" assets/js/main.js"></script>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 </body>
 
