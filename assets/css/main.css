@@ -14,7 +14,7 @@ header{
     margin: 0;
     width: 100%;
     text-align: center;
-    background: url("img/banner/night_photo_banner.png");
+    background: url("../img/banner/night_photo_banner.png");
     color: white;
 }
 
@@ -24,7 +24,7 @@ header{
     overflow: hidden;
     margin: 0;
     padding: 0;
-    background-color: rgb(0,183,183);
+    background-color: grey;
 }
 
 img {
@@ -137,19 +137,35 @@ li a:hover:not(.active){
     text-align: right;
     height: 210px;
     margin-bottom: 10px;
-    background-color: rgb(0,183,183);
+    background-color: grey;
 }
 
 #article {
     width: 60%;
     padding: 2px;
     float: right;
-    height: 800px;
-    background-color: rgb(0,183,183);
+    height: 1130px;
+    background-color: grey;
 }
 
 .placeOfTheDay{
     max-width: 100%;
+    color: white;
+}
+
+.POTDInfo{
+    text-align: center;
+}
+
+.POTDPhoto{
+    max-width: 50%;
+
+}
+
+.POTDReviews{
+    width:100%;
+    margin: 7%;
+    margin-bottom: 5px;
 
 }
 
@@ -158,18 +174,18 @@ li a:hover:not(.active){
     float: left;
     height: 575px;
     margin-top: 5px;
-    margin-left: 0px;
+    margin-left: 0;
     padding: 2px;
-    background-color: rgb(0,183,183);
+    background-color: grey;
 }
 
 footer{
     width: 100%;
-    text-align: center;
+    text-align: left;
     clear: both;
     height: 150px;
 }
 
-#comments{
+.comments{
     text-align: left;
 }
