@@ -66,6 +66,11 @@ body {
   margin: 0;
 }
 
+.dropbtn a {
+  display: block;
+  margin-top: -15px;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
