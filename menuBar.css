@@ -68,7 +68,8 @@ body {
 
 .dropbtn a {
   display: block;
-  margin-top: -15px;
+  shape-margin: auto;
+  margin-top: -13px;
 }
 
 .dropdown-content {
