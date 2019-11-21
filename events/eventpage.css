@@ -1,0 +1,44 @@
+h1{
+    color: blue;
+    
+    align-self: center;
+    text-align: center;
+}
+
+.img{
+    padding: 0px 160px;
+    width: 906px;
+    height: 290px;
+    margin-left: 18px;
+    margin-right: 34px;
+    left: 0px;
+    top: 0px;
+    pad
+
+}
+
+.discription{
+    display: solid;
+    margin-left: 60px;
+    margin-top: 300px;
+    margin-right: 104px;
+    color:black;
+    background: rgba(87, 84, 86,.8);;
+
+    padding-top: 10px;
+    padding-bottom: 530px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+
+
+
+iframe{
+    margin-left: 150px;
+    margin-top: 300px;
+    margin-right: 104px;
+    width: 400px;
+    height: 350px; 
+}
+
