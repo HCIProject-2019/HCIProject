@@ -1,0 +1,237 @@
+body {
+    background-color: bisque;
+  }
+
+.name{
+    border: 1px solid black ;
+    width: 280px;
+    height: 70px;
+    text-align: left;
+    margin-top: 90px; 
+    margin-left: 40px;
+    background-color:skyblue;
+    display: inline-block;
+
+}
+textarea[name="event-name"] {
+    color:black;
+    margin-top: 18px;
+    width: 280px;
+    
+  }
+
+textarea[name="comments"]{
+    color:black;
+    margin-top: 25px;
+    width: 280px;
+    left: 5px;
+
+}
+
+
+
+
+  /*
+        div1 is the main class for the form
+  */
+.main-form{
+    border: solid black;
+    width: 710px;
+    height: 700px;
+    text-align: left;
+    margin-left: 265px;
+    background-color: whitesmoke;
+    display: grid;
+
+}
+
+.selectDate{
+    border: 1px solid black ;
+    width: 100px;
+    height: 70px;
+    text-align: left;
+    margin-top: 20px; 
+    margin-left: 20px;
+    background-color:skyblue;
+    display: inline-block;
+
+}
+
+.selectTime{
+    border: 1px solid black ;
+    width: 100px;
+    height: 70px;
+    text-align: left;
+    margin-top: 20px; 
+    margin-left: 20px;
+    background-color:skyblue;
+    display: inline-block;
+
+}
+
+.price{
+    border: 1px solid black ;
+    width: 100px;
+    height: 90px;
+    text-align: left;
+    margin-top: 20px; 
+    margin-left: 20px;
+    background-color:skyblue;
+    
+    display: inline-block;
+}
+
+.uploadPic{
+    border: 1px solid black ;
+    width: 100px;
+    height: 90px;
+    text-align: left;
+    margin-top: 20px; 
+    margin-left: 20px;
+    background-color:skyblue;
+    
+    display: inline-block;
+}
+.uploadVideo{
+    border: 1px solid black ;
+    width: 100px;
+    height: 90px;
+    text-align: left;
+    margin-top: 20px; 
+    margin-left: 20px;
+    background-color:skyblue;
+    
+    display: inline-block;
+}
+
+p1{
+    height: 1px;
+    width: 320px;
+    left: 480px;
+    top: 20px;
+    position: absolute;
+
+
+}
+
+.Description{
+    position: absolute; 
+    top:80px; 
+    left: 650px; 
+    width:290px; 
+    height:415px;
+    
+
+    border: 1px solid black ;
+    text-align: right;
+    margin-top: 20px; 
+    margin-right: 20px;
+    background-color:skyblue;
+}
+
+.submit{
+    border: 1px solid black ;
+    width: 140px;
+    height: 60px;
+    text-align: left;
+    margin-top: 20px; 
+    margin-left: 20px;
+    color: white;
+    background-color:green;
+    
+    display: inline-block;
+}
+
+.cancel{
+    border: 1px solid rgb(134, 57, 57) ;
+    width: 140px;
+    height: 60px;
+    color: white;
+    text-align: left;
+    margin-top: 20px; 
+    margin-left: 0px;
+    background-color:rgba(168, 70, 70, 0.945);
+    
+    display: inline-block;
+
+}
+
+button[type="cancel"]{
+
+    background-color: red;
+    color: white;
+    padding: 5px 49px;
+    margin: 5px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+button[type = "submit"]{
+    background-color:green;
+    color: white;
+    
+    padding: 5px 49px;
+    margin: 5px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    
+}
+
+iframe{
+    margin-left: 50px;
+    width: 320px;
+    height: 350px;
+    left: 960px;
+    margin-top: px;
+
+}
+.calendar{
+    margin-left: 10px;
+    width: 320px;
+    height: 350px;
+    left: 960px;
+    top: 20px; 
+}
+
+.goback{
+    width: 200px;
+    height: 100px;
+    color:white;
+    background-color: coral;
+}
+
+button[type = "List"]{
+    background-color:green;
+    color: white;
+    
+    padding: 20px 49px;
+    margin: 5px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    
+}
+
+.tomain{
+    width: 200px;
+    height: 100px;
+    color:white;
+    background-color:purple;
+
+}
+
+button[type = "main"]{
+    background-color:green;
+    color: white;
+    
+    padding: 20px 49px;
+    margin: 5px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    
+}
+
