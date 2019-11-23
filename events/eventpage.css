@@ -1,29 +1,48 @@
-h1{
-    color: blue;
-    
-    align-self: center;
+body{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: white;
+}
+
+* {box-sizing: border-box}
+
+header{
+    top: 0;
+    left:0;
+    padding: 2px;
+    font-size: 25px;
+    margin: 0;
+    width: 100%;
     text-align: center;
+    background: url("../assets/img/banner/night_photo_banner.png");
+    color: white;
+}
+
+.topnav, #myTopnav {
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
 }
 
 .img{
     padding: 0px 10px;
-    width: 706px;
-    height: 290px;
-    margin-left: 160px;
-    margin-right: 34px;
+    width: 50%;
+    height: auto;
     left: 0px;
     top: 0px;
-    pad
-
 }
 
 .boxed {
+    margin-top: 50px;
     border: 1px solid black ;
-    width: 700px;
+    width: 1285px;
     height: 30px;
     text-align: center;
     padding-top:10px;
-    margin-left: 170px;
+    margin-left: 10px;
     background-color:grey;
     display: inline-block;
   }
@@ -31,11 +50,11 @@ h1{
 .description{
 
     border: 1px solid black ;
-    width: 700px;
-    height: 200px;
+    width: 1285px;
+    height: 250px;
     text-align: left;
 
-    margin-left: 170px;
+    margin-left: 10px;
     background-color:whitesmoke;
     display: inline-block;
     
@@ -49,11 +68,11 @@ h1{
 iframe{
     margin-left: 150px;
     width: 400px;
-    height: 350px; 
+    height: 380px;
 }
 
 .map{
     margin-left: 750px;
-    margin-top: -300px;
+    margin-top: -385px;
 }
 
