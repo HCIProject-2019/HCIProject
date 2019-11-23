@@ -59,10 +59,16 @@ li a:hover:not(.active){
 
 /*Slideshow for the main page*/
 .slideshow{
-    width: 1000px;
+    width: 1404px;
     object-fit: fill;
     position: relative;
     margin: auto;
+    overflow: hidden;
+}
+
+.slideshow img{
+    height: auto;
+    width: 1404px;
 }
 
 .photo-text{
