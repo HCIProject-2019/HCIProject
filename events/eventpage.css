@@ -6,10 +6,10 @@ h1{
 }
 
 .img{
-    padding: 0px 160px;
-    width: 906px;
+    padding: 0px 10px;
+    width: 706px;
     height: 290px;
-    margin-left: 18px;
+    margin-left: 160px;
     margin-right: 34px;
     left: 0px;
     top: 0px;
@@ -17,28 +17,43 @@ h1{
 
 }
 
-.discription{
-    display: solid;
-    margin-left: 60px;
-    margin-top: 300px;
-    margin-right: 104px;
-    color:black;
-    background: rgba(87, 84, 86,.8);;
-
-    padding-top: 10px;
-    padding-bottom: 530px;
-    padding-left: 50px;
-    padding-right: 50px;
+.boxed {
+    border: 1px solid black ;
+    width: 700px;
+    height: 30px;
+    text-align: center;
+    padding-top:10px;
+    margin-left: 170px;
+    background-color:grey;
+    display: inline-block;
   }
 
+.description{
 
+    border: 1px solid black ;
+    width: 700px;
+    height: 200px;
+    text-align: left;
 
+    margin-left: 170px;
+    background-color:whitesmoke;
+    display: inline-block;
+    
+}
+
+.calendar{
+    margin-left: 750px;
+    margin-top: -300px;
+}
 
 iframe{
     margin-left: 150px;
-    margin-top: 300px;
-    margin-right: 104px;
     width: 400px;
     height: 350px; 
+}
+
+.map{
+    margin-left: 750px;
+    margin-top: -300px;
 }
 
