@@ -32,6 +32,8 @@ img {
     margin-bottom: 5px;
 }
 
+
+
 li{
     display: inline;
 }
@@ -57,7 +59,8 @@ li a:hover:not(.active){
 
 /*Slideshow for the main page*/
 .slideshow{
-    max-width: 1000px;
+    width: 1000px;
+    object-fit: fill;
     position: relative;
     margin: auto;
 }
@@ -144,7 +147,7 @@ li a:hover:not(.active){
     width: 60%;
     padding: 2px;
     float: right;
-    height: 1130px;
+    height: 1100px;
     background-color: grey;
 }
 
@@ -159,7 +162,6 @@ li a:hover:not(.active){
 
 .POTDPhoto{
     max-width: 50%;
-
 }
 
 .POTDReviews{
@@ -168,8 +170,8 @@ li a:hover:not(.active){
     margin-bottom: 5px;
 
 }
-
-#calendar{
+/*
+.calendar{
     width: 35%;
     float: left;
     height: 575px;
@@ -178,6 +180,7 @@ li a:hover:not(.active){
     padding: 2px;
     background-color: grey;
 }
+*/
 
 footer{
     width: 100%;
