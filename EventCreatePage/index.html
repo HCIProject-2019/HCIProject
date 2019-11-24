@@ -12,7 +12,7 @@
 
 
 
-    <DIV class= "Description">
+<DIV class= "Description">
                 <div class="des-title" style="position: absolute">Description</div>
             <textarea name="comments" placeholder="please write a description for your event." cols="30" rows="25" style="position: absolute;"></textarea>
 
@@ -21,7 +21,7 @@
 
 
 <DIV class= "uploadPic" style="position: absolute; top:430px; left: 296px; width:280px; height:105px">
-    <p>Upload a picture </p><hr>
+    <p> Upload a picture </p><hr>
     <input type="file" name="user-pic" />
     <br>
     <input type="submit" value="Upload" />
@@ -29,7 +29,7 @@
 </DIV>
 
 <DIV class= "uploadVideo" style="position: absolute; top:550px; left: 296px; width:280px; height:105px">
-    <p>Upload a video (optional) </p> <hr>
+    <p> Upload a video (optional) </p> <hr>
     <input type="file" name="user-video" />
     <br>
     <input type="submit" value="Upload" />
@@ -37,7 +37,7 @@
 </DIV>
 
 
-<DIV class = "selectDate" style="position: absolute; top:160px; left: 296px; width:280px; height:90px">
+<DIV class = "selectDate" style="position: absolute; margin-top: 10px; top:160px; left: 296px; width:280px; height:90px">
         <label for="event-date">Event date<hr> From:</label>
         <input type="date" name="event-date" />
         <br>
@@ -58,7 +58,7 @@
 </DIV>
 
 <DIV class = "price" style="position: absolute; top:350px; left: 296px; width:280px; height:60px">
-        <label for="event-price">Cost(optional)  $CAD<hr>:</label>
+        <label for="event-price">Cost (in CAD)<hr>:</label>
         <input type="money" name="event-price" />
 
 
@@ -67,48 +67,54 @@
 
 
 <DIV class ="submit " style= "position: absolute; top:560px; left: 780px;" >
-    <p> click submit when you finish</p>
-    <button type="submit" value="Submit">Submit</button>
+<!--    <p> click submit when you finish</p>-->
+    <button type="submit" value="Submit"> Submit</button>
 </DIV>
 
 <DIV class ="cancel" style= "position: absolute; top:560px; left: 650px;" >
-                <p> click cancel and go back to main page</p>
-                <button type="cancel" value="Submit">cancel</button>
+<!--                <p> click cancel and go back to main page</p>-->
+                <button type="cancel" value="Submit"> Cancel creation</button>
             </DIV>
 
 <DIV class= "name">
         <p3>Event name </p3>
         <br>
-        <textarea name="event-name" placeholder="please enter the event name" cols="30" rows="2"></textarea>
+        <textarea name="event-name" placeholder="Please enter name of the event" cols="30" rows="2"></textarea>
 </DIV>
 
 </form>
 </div1>
-<div class="calendar" style="position: absolute;">
-                <iframe src="https://calendar.google.com/calendar/embed?src=kaifridayzhao%40gmail.com&ctz=America%2FWinnipeg"width="700" height="600" frameborder="0" ></iframe>
-             </div>
 
-             <div class="weather" >
-                    <a class="weatherwidget-io" href="https://forecast7.com/en/49d90n97d14/winnipeg/" data-label_1="WINNIPEG, MB" data-label_2="WEATHER" data-theme="original" style="left: 0px; top:-300px;">WINNIPEG WEATHER</a>
-                    <script>
-                            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
-                                if(!d.getElementById(id)){js=d.createElement(s);js.id=id;
-                                    js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);
-                                }}(document,'script','weatherwidget-io-js');
-                        </script>
-                    </div>
+
+<div id="calendar"></div>
+<!--<div class="calendar" style="position: absolute;">-->
+<!--                <iframe src="https://calendar.google.com/calendar/embed?src=kaifridayzhao%40gmail.com&ctz=America%2FWinnipeg"width="700" height="600" frameborder="0" ></iframe>-->
+<!--             </div>-->
+
+<!--             <div class="weather" >-->
+<!--                    <a class="weatherwidget-io" href="https://forecast7.com/en/49d90n97d14/winnipeg/" data-label_1="WINNIPEG, MB" data-label_2="WEATHER" data-theme="original" style="left: 0px; top:-300px;">WINNIPEG WEATHER</a>-->
+<!--                    <script>-->
+<!--                            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];-->
+<!--                                if(!d.getElementById(id)){js=d.createElement(s);js.id=id;-->
+<!--                                    js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);-->
+<!--                                }}(document,'script','weatherwidget-io-js');-->
+<!--                        </script>-->
+<!--                    </div>-->
 
 
 <div class = "goback" style="position: fixed; top: 20px">
-    <p>click "my event List" take you back to your event List</p>
-    <button type = "List">My event List</button>
+<!--    <p> Click "My event List" take you back to your event List</p>-->
+    <button type = "List">Go to the Event List</button>
 </div>
 
 <div class = "tomain" style="position: fixed; top: 200px">
-        <p>click "go back" take you back to main page</p>
-        <button type = "main">go back</button>
+<!--        <p> Click "go back" take you back to main page</p>-->
+        <button type = "main">Go back to the main page</button>
     </div>
 
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="../assets/js/index.js"></script>
+<script src="../assets/js/jquery.e-calendar.js"></script>
 </body>
 </html>

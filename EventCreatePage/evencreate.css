@@ -1,6 +1,12 @@
-body {
-    background-color: bisque;
-  }
+body{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: white;
+}
+
+h1{
+    align-content: center;
+}
 
 .name{
     border: 1px solid black ;
@@ -8,16 +14,17 @@ body {
     height: 70px;
     text-align: left;
     margin-top: 90px; 
-    margin-left: 40px;
+    margin-left: 30px;
     background-color:skyblue;
     display: inline-block;
-
+    margin-bottom: 10px;
 }
 textarea[name="event-name"] {
     color:black;
-    margin-top: 18px;
-    width: 280px;
-    
+    margin-top: 15px;
+    width: 275px;
+    margin-bottom: 10px;
+
   }
 
 textarea[name="comments"]{
@@ -39,6 +46,7 @@ textarea[name="comments"]{
     width: 710px;
     height: 700px;
     text-align: left;
+    left: 40%;
     margin-left: 265px;
     background-color: whitesmoke;
     display: grid;
@@ -107,18 +115,17 @@ textarea[name="comments"]{
 p1{
     height: 1px;
     width: 320px;
-    left: 480px;
     top: 20px;
     position: absolute;
-
+    left: 300px;
 
 }
 
 .Description{
     position: absolute; 
-    top:80px; 
+    top:90px;
     left: 650px; 
-    width:290px; 
+    width:300px;
     height:415px;
     
 
@@ -143,15 +150,15 @@ p1{
 }
 
 .cancel{
-    border: 1px solid rgb(134, 57, 57) ;
+    border: 1px solid;
     width: 140px;
     height: 60px;
-    color: white;
+    background-color: red;
     text-align: left;
-    margin-top: 20px; 
+    margin-top: 20px;
     margin-left: 0px;
-    background-color:rgba(168, 70, 70, 0.945);
-    
+    /*background-color:rgba(168, 70, 70, 0.945);*/
+
     display: inline-block;
 
 }
@@ -185,7 +192,7 @@ iframe{
     width: 320px;
     height: 350px;
     left: 960px;
-    margin-top: px;
+    /*margin-top: px;*/
 
 }
 .calendar{
@@ -193,14 +200,15 @@ iframe{
     width: 320px;
     height: 350px;
     left: 960px;
-    top: 20px; 
+    top: 20px;
 }
 
 .goback{
     width: 200px;
     height: 100px;
     color:white;
-    background-color: coral;
+    /*background-color: coral;*/
+    top: 20px;
 }
 
 button[type = "List"]{
@@ -217,10 +225,9 @@ button[type = "List"]{
 
 .tomain{
     width: 200px;
-    height: 100px;
+    height: 50px;
     color:white;
-    background-color:purple;
-
+    /*background-color:purple;*/
 }
 
 button[type = "main"]{
