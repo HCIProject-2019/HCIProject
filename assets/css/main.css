@@ -14,7 +14,9 @@ header{
     margin: 0;
     width: 100%;
     text-align: center;
+    object-fit: fill;
     background: url("../img/banner/night_photo_banner.png");
+    background-size: cover;
     color: white;
 }
 
@@ -198,12 +200,9 @@ footer{
 .comments{
     text-align: left;
 }
-<<<<<<< HEAD
-=======
 
 .yelpRev img{
     width:100px;
     height: auto;
 
 }
->>>>>>> 536a3474d5d2b6bb7d4b8a3fadfd5f51703691ba
