@@ -1,0 +1,224 @@
+body{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: white;
+}
+
+* {box-sizing: border-box}
+
+header{
+    top: 0;
+    left:0;
+    padding: 2px;
+    font-size: 25px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    background: url("../img/banner/night_photo_banner.png");
+    color: white;
+}
+
+.menu {
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+img {
+    vertical-align: middle;
+    margin-bottom: 5px;
+
+    
+}
+
+
+
+li{
+    display: inline;
+}
+
+li a{
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+}
+
+li a.active{
+    background-color: black;
+}
+
+li a:hover:not(.active){
+    background-color: burlywood;
+}
+
+.slides{
+    display: none;
+    margin-top: 5px;
+}
+
+/*Slideshow for the main page*/
+.slideshow{
+    width: 600px;
+    object-fit: fill;
+    position: sticky;
+    overflow: hidden;
+    top: 30px;
+    margin-top: 60px;
+    left: 370px;
+}
+
+.slideshow img{
+    height: auto;
+    width: 1404px;
+}
+
+.photo-text{
+    text-align: center;
+    color: cornsilk;
+    padding: 5px 5px;
+    bottom: 2px;
+    width: 100%;
+    position: absolute;
+    border-radius: 0 4px 4px 0;
+}
+
+.prev,.next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next{
+    right: 0;
+    border-radius: 10px;
+}
+
+.prev{
+    left: 0;
+    border-radius: 10px;
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 3px;
+    margin-bottom: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover{
+    background-color: dimgrey;
+}
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: 0.2}
+    to   {opacity: 1.0}
+}
+
+@keyframes fade {
+    from {opacity: 0.2}
+    to   {opacity: 1.0}
+}
+
+#weather {
+    width: 35%;
+    float: left;
+    padding: 2px;
+    text-align: right;
+    height: 210px;
+    margin-bottom: 10px;
+    background-color: grey;
+}
+
+#article {
+    width: 60%;
+    padding: 2px;
+    float: right;
+    height: 1100px;
+    background-color: grey;
+}
+
+.placeOfTheDay{
+    max-width: 100%;
+    color: white;
+}
+
+.POTDInfo{
+    text-align: center;
+}
+
+.POTDPhoto{
+    max-width: 50%;
+}
+
+.POTDReviews{
+    width:100%;
+    margin: 7%;
+    margin-bottom: 5px;
+
+}
+/*
+.calendar{
+    width: 35%;
+    float: left;
+    height: 575px;
+    margin-top: 5px;
+    margin-left: 0;
+    padding: 2px;
+    background-color: grey;
+}
+*/
+.picture{
+    position: relative;
+    top: 100px;
+    height: 300px;
+}
+
+.column{
+    background-color: grey;
+    width: 900px;
+}
+
+footer{
+    width: 100%;
+    text-align: left;
+    clear: both;
+    height: 150px;
+}
+
+.comments{
+    text-align: left;
+}
+<<<<<<< HEAD
+=======
+
+.yelpRev img{
+    width:100px;
+    height: auto;
+
+}
+>>>>>>> 536a3474d5d2b6bb7d4b8a3fadfd5f51703691ba
+
