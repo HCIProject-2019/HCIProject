@@ -143,12 +143,15 @@ img {vertical-align: middle;}
   clear: both;
 }
 
-/*footer*/
-.footer{
-  padding: 20px;
-  text-align: center;
-  background: grey;
-  margin-top: 20px;
+footer{
+    width: 100%;
+    text-align: left;
+    clear: both;
+    height: 150px;
+}
+
+.comments{
+    text-align: left;
 }
 
 /* Link normal colour, visited, and when hovered*/
