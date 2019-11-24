@@ -198,3 +198,9 @@ footer{
 .comments{
     text-align: left;
 }
+
+.yelpRev img{
+    width:100px;
+    height: auto;
+
+}
