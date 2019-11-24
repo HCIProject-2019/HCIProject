@@ -1,5 +1,8 @@
 
-
+body {
+  background: url('register.jpg');
+  background-size:cover;
+}
 /* Add padding to containers */
 .register {
   display: solid;
