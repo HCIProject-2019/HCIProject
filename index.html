@@ -7,6 +7,8 @@
     <meta name="keywords" content="Winnipeg, Manitoba, Canada, events, tourist attractions" />
     <link href = "assets/css/main.css" type="text/css" rel="stylesheet" />
     <link href="menuBar.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/jquery.e-calendar.css">
+
 </head>
 
 <body>
@@ -20,7 +22,6 @@
   <a class="active" href="index.html">Home</a>
   <a href="#">Events</a>
   <a href="#">Places to Shop</a>
-  <a href="#">Something</a></li>
   <div class="dropdown">
     <a class="dropbtn" href="sights/index.html">Sights to See
       <i class="fa fa-caret-down"></i>
@@ -50,7 +51,7 @@
         <div class="photo-text">Provencher Bridge</div>
     </div>
     <div class="slides fade">
-        <img src="assets/img/home/AssiniboinePark.jpeg" style="width:100%"
+        <img src="assets/img/home/AssiniboinePark.jpg" style="width:100%"
              alt = "Assiniboine Park">
         <div class="photo-text">Assiniboine Park</div>
     </div>
@@ -94,6 +95,7 @@
                 <h4> Website: www.yes-restaurants.com</h4>
             </div>
             <div class="POTDReviews">
+                <!-- Nov 23 - Yelp is currently down, will try to think of an alternative for this -->
                 <span class="yelp-review" data-review-id="fhudXZa2YYW21fzPdiCQXA" data-hostname="www.yelp.ca">Read <a href="https://www.yelp.com/user_details?userid=mWYeuxpueZBNJEBKYb03RA" rel="nofollow noopener">Amy W.</a>'s <a href="https://www.yelp.ca/biz/yes-buffet-winnipeg?hrid=fhudXZa2YYW21fzPdiCQXA" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/7KgLHLGJfD4OFYwpVHU3aQ" rel="nofollow noopener">Ye's Buffet</a> on <a href="https://www.yelp.ca" rel="nofollow noopener">Yelp</a><script async="async" src="https://www.yelp.ca/embed/widgets.js" type="text/javascript"></script></span>
               <br/>
                 <span class="yelp-review" data-review-id="Z7szwGz1idm_ZEPSq92hRg" data-hostname="www.yelp.ca">Read <a href="https://www.yelp.com/user_details?userid=dMkpVwqkXEkzuFLrbA14Wg" rel="nofollow noopener">Mora O.</a>'s <a href="https://www.yelp.ca/biz/yes-buffet-winnipeg?hrid=Z7szwGz1idm_ZEPSq92hRg" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/7KgLHLGJfD4OFYwpVHU3aQ" rel="nofollow noopener">Ye's Buffet</a> on <a href="https://www.yelp.ca" rel="nofollow noopener">Yelp</a><script async="async" src="https://www.yelp.ca/embed/widgets.js" type="text/javascript"></script></span>
@@ -102,21 +104,23 @@
     </div>
 </div>
 
-<div id = "calendar">
-    <!-- embedded Google Calendar -->
-    <iframe src="https://calendar.google.com/calendar/b/5/embed?height=575&amp;wkst=1&amp;bgcolor=%23009688&amp;ctz=America%2FWinnipeg&amp;src=ZGlzY292ZXJ0aGVwZWdAZ21haWwuY29t&amp;color=%2322AA99&amp;showTabs=0&amp;showPrint=0&amp;showCalendars=0&amp;title=Upcoming%20Events&amp;showNav=0&amp;showTitle=1" style="border-width:0" width=100% height=100% frameborder="0" scrolling="no"></iframe>
+<div id="calendar">
+    <!-- embedded Google Calendar-->
+    <!--<iframe src="https://calendar.google.com/calendar/b/5/embed?height=575&amp;wkst=1&amp;bgcolor=%23009688&amp;ctz=America%2FWinnipeg&amp;src=ZGlzY292ZXJ0aGVwZWdAZ21haWwuY29t&amp;color=%2322AA99&amp;showTabs=0&amp;showPrint=0&amp;showCalendars=0&amp;title=Upcoming%20Events&amp;showNav=0&amp;showTitle=1" style="border-width:0" width=100% height=100% frameborder="0" scrolling="no"></iframe> -->
 </div>
 
 <footer>
+    <br />
     <h2>#DiscoverThePeg</h2>
     <h2 class= comments> <br />Questions? Suggestions? </h2>
     <!--Change the webmaster email to the whatever email we come up with.-->
     <p class = comments>Feel free to <a href="mailto:discoverthepeg@gmail.com">email us</a> or call 204-322-00xx.<br></p>
-
 </footer>
 
-<script src=" assets/js/main.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
+<script src="assets/js/index.js"></script>
+<script src=" assets/js/main.js"></script>
 <!--- script for menu bar--->
 <script>
 function myFunction() {
@@ -128,7 +132,7 @@ function myFunction() {
   }
 }
 </script>
-
+<script src="assets/js/jquery.e-calendar.js"></script>
 </body>
 
 
