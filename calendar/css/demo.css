@@ -6,13 +6,13 @@ body{
 /*left column*/
 .leftcolumn {
   float: left;
-  width: 55%;
+  width: 50%;
 }
 
 /*right column*/
 .rightcolumn {
   float: left;
-  width: 45%;
+  width: 50%;
   background-color: white;
   padding-left: 20px;
 }
