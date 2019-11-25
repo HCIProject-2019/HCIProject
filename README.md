@@ -3,9 +3,11 @@
 This is a group project for our HCI course (COMP 3020) in University of Manitoba. This project build a webase system introduce people to places/restaurants to hang out in Winnipeg.
 
 ## Notes
+* To interact with this website, please open the index.html located with this README file.
 * A few things have been updated since our written report for this Milestone.
     * The calendar panel in the front page has been replaced with a clickable image of a calendar, which still mimicks the behaviour of selecting the calendar to view a full list of the event. 
     * The image for "A Charlie Brown Christmas" works on Google Chrome.
+    * The info page of Human Rights Museum under 'Sights to See' is now functional and viewable.
 
 ### Contributors
 * [Chris Ciceron](https://github.com/chrisciceron) 🙃
