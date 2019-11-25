@@ -1,73 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Discover the Peg - Human Rights Museum</title>
+<title>Sights</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="human.css">
 <link rel="stylesheet" type="text/css" href="gallery.css">
+<link rel="stylesheet" type="text/css" href="human.css">
 </head>
 <body>
+
 <div class="header">
     <h1><b><a style= "text-decoration:none; color: white;" href="../index.html">DISCOVER THE PEG</b></a></h1>
-  <h4>HUMAN RIGHTS MUSEUM</h4>
+  <h4>SIGHTS TO SEE</h4>
 </div>
 <div class="topnav" id="myTopnav">
-  <a  href="index.html">Home</a>
+  <a href="../index.html">Home</a>
   <a href="../events/eventmain.html">Events</a>
   <a href="#">Eat & Drink</a>
   <div class="dropdown">
-    <a class="dropbtn" style="background-color: grey" href="index.html">Sights to See
+    <button class="dropbtn">Login/Register
+      <i class="fa fa-caret-down"></i>
+    </button>
+  <div class="dropdown">
+    <a class="dropbtn" style="background-color: grey" href="../sights/index.html">Sights to See
       <i class="fa fa-caret-down"></i>
     </a>
     <div class="dropdown-content">
-      <a href="index.html">Sights to See</a>
-      <a href="historical.html">Historical places</a>
+      <a href="../sights/index.html">Sights to See</a>
+      <a href="../sights/historical.html">Historical places</a>
       <a href="Galleries.html">Galleries</a>
       <a href="#">Nature and Parks</a>
     </div>
   </div>
-  <div class="dropdown">
-      <button class="dropbtn">Login/Register
-          <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-          <a href="../loginAndReg/logging.html">Login</a>
-          <a href="../loginAndReg/registering.html">Register</a>
-      </div>
-  </div>
   <a href="../contactUs/index.html">Contact Us</a>
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
-<p><a href="index.html">Sights to See</a>/<a href="historical.html">Historical Places</a>/<a href="humanright.html"><b>Human Rights Museum</b></a></p>
-<!---add some footer--->
+</div>
 <div class="row">
 <div class="leftcolumn">
 <!---Historical slideshow--->
-<p><b>Historical places...</b><a href="historical.html"><button> more</button></a></p>
+<p><b>Human Right Museum</b></p>
 <div class="slideshow-container">
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="img/humanright.jpg" style="width:100%">
-  <div class="text">Human Rights Museum</div>
+  <img src="img/1.jpg" style="width:100%">
 </div>
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="img/fort.jpg" style="width:100%">
-  <div class="text">Fort Gibraltar</div>
+  <img src="img/2.jpg" style="width:100%">
 </div>
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="img/sevenOaks.jpg" style="width:100%">
-  <div class="text">Seven Oaks museum</div>
-</div>
-</div>
+  <img src="img/3.jpg" style="width:100%">
 </div>
 <!---button for move left and right--->
 <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
 <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 </div>
 </div>
+<!---add about us--->
+<div class="rightcolumn">
+<div class="card">
+  <h2>Description</h2>
+  <p>Every one of our exhibitions tells a unique story in the diverse world of human rights. And like the world of human rights, our exhibitions are always changing. So be sure to visit before they’re gone.</p>
 </div>
+<div class="card">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.426164093033!2d-97.132929584552!3d49.89080197940211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52ea715ac2af235d%3A0xd270f6cd52aaf6b4!2sCanadian%20Museum%20for%20Human%20Rights!5e0!3m2!1sen!2sca!4v1574678090705!5m2!1sen!2sca" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+</div>
+
+<!---add some footer--->
 <footer>
     <br />
     <h2>#DiscoverThePeg</h2>
@@ -75,7 +76,27 @@
     <!--Change the webmaster email to the whatever email we come up with.-->
     <p class = comments>Feel free to <a href="mailto:discoverthepeg@gmail.com">email us</a> or call 204-322-00xx.<br></p>
 </footer>
+<!--- javascript for the slide in each box moving--->
 <script>
+var slideIndex = [1,1,1];
+var slideId = ["mySlides", "aSlide", "Slides"]
+showSlides(1, 0);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex[no]-1].style.display = "block";
+}
+
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -85,4 +106,3 @@ function myFunction() {
   }
 }
 </script>
-</body>
