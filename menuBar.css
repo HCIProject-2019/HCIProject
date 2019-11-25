@@ -130,7 +130,7 @@ body {
 }
 
 /* Button for Ye's Buffet */
-.button {
+button {
   background-color: whitesmoke;
   border: none;
   color: black;
@@ -143,6 +143,6 @@ body {
   cursor: pointer;
 }
 
-.button:hover {
+button:hover {
   background-color: #e5e5e5;
 }
