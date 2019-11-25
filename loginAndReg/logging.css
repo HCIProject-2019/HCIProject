@@ -37,19 +37,24 @@
     margin: 8px 10px;
     border: none;
     cursor: pointer;
-    width: 40%;
+    position: absolute;
+    width: 30%;
     opacity: .8;
+    left: 203px;
+    top: 369px
   }
 
   .registerbtn{
     background-color: #4CAF50;
     color: white;
-  padding: 16px 20px;
-  margin: 10px 22px;
-  border: none;
-  cursor: pointer;
-  width: 87%;
+    padding: 16px 20px;
+    margin: 10px 22px;
+    border: none;
+    cursor: pointer;
+    width: 64%;
     opacity: .8;
+    position: absolute;
+    top: 472px;
   }
 
   .login{
