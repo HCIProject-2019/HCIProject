@@ -6,15 +6,16 @@ body {
 /* Add padding to containers */
 .register {
   display: solid;
-  margin-left: 777px;
-  margin-right: 104px;
+  margin-left: 695px;
+  margin-right: 117px;
   color: whitesmoke;
   background: rgb(75, 92, 134);
   padding-top: 10px;
-  padding-bottom: 600px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-bottom: 590px;
+  padding-left: 22px;
+  padding-right: 14px;
 }
+
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -60,7 +61,10 @@ hr {
   margin: 10px 0px;
   border: none;
   cursor: pointer;
-  width: 40%;
+  position: relative;
+  width: 146px;
+  left: 998px;
+  top: 448px;
   opacity: .8;
 }
 
@@ -77,13 +81,16 @@ hr {
 }
 
 .signinbtn{
-  background-color:blue;
+  background-color: blue;
   color: white;
   padding: 16px 20px;
   margin: 10px 22px;
   border: none;
   cursor: pointer;
-  width: 87%;
+  position: relative;
+  width: 309px;
+  left: 810px;
+  top: 490px;
   opacity: .8;
 
 }
