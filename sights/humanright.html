@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Sights</title>
+<title>Discover the Peg - Human Rights Museum</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="human.css">
 <link rel="stylesheet" type="text/css" href="gallery.css">
 </head>
 <body>
 <div class="header">
-  <h1>HUMAN RIGHT MUSEUM</h1>
+  <h1>DISCOVER THE PEG</h1>
+  <h4>HUMAN RIGHTS MUSEUM</h4>
 </div>
 <div class="topnav" id="myTopnav">
-  <a href="../index.html">Home</a>
-  <a href="#">Events</a>
+  <a  href="index.html">Home</a>
+  <a href="../events/eventmain.html">Events</a>
   <a href="#">Places to Shop</a>
-  <a href="#">Something</a></li>
   <div class="dropdown">
-    <a class="active" class="dropbtn" href="index.html">Sights to See
+    <button class="dropbtn">Login/Register
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="../loginAndReg/logging.html">Login</a>
+      <a href="../loginAndReg/registering.html">Register</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <a class="dropbtn" style="background-color: grey" href="index.html">Sights to See
       <i class="fa fa-caret-down"></i>
     </a>
     <div class="dropdown-content">
@@ -26,11 +35,10 @@
       <a href="#">Nature and Parks</a>
     </div>
   </div>
-  <a href="#"></a>
-  <a href="../contactpage/index.html">Contact Us</a>
+  <a href="../contactUs/index.html">Contact Us</a>
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
-<p><a href="index.html">Sights to See</a>/<a href="historical.html">Historical Places</a>/<a href="humanright.html"><b>Human Right Museum</b></a></p>
+<p><a href="index.html">Sights to See</a>/<a href="historical.html">Historical Places</a>/<a href="humanright.html"><b>Human Rights Museum</b></a></p>
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");

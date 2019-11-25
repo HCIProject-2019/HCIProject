@@ -1,22 +1,21 @@
-
-<html>
-<link href="evencreate.css" type="text/css" rel="stylesheet" />
-<link href="menuBar.css" type="text/css" rel="stylesheet">
-
+<!DOCTYPE html>
+<head>
+    <title>Create an event - Discover the Peg</title>
+    <link href="../assets/css/eventcreate.css" type="text/css" rel="stylesheet" />
+<!--    <link rel="stylesheet" href="../assets/css/jQueryECalendarCreateEv.css">-->
+</head>
 <body>
 
+        
 <div1 class="main-form">
-                <p1 style = "font-family:georgia,garamond,serif;font-size:30px;font-style:italic;">Create Your own event</p1>
-
+                <p1 style = "font-family:georgia,garamond,serif;font-size:30px;">Create an event</p1>
+               
 <form action="http://www.example.com/login.php">
-
-
 
 <DIV class= "Description">
                 <div class="des-title" style="position: absolute">Description</div>
-            <textarea name="comments" placeholder="please write a description for your event." cols="30" rows="25" style="position: absolute;"></textarea>
-
-
+            <textarea name="comments" placeholder="Please write a description for your event." cols="35" rows="25"
+                      style="position: absolute;"></textarea>
 </DIV>
 
 
@@ -43,7 +42,7 @@
         <br>
         <label for="event-date">To:</label>
         <input type="date" name="event-date" />
-
+        
 
 </DIV>
 
@@ -52,16 +51,16 @@
         <input type="time" name="event-time" />
         <label for="event-time">To:</label>
         <input type="time" name="event-time" />
-
-
+        
+        
 
 </DIV>
 
 <DIV class = "price" style="position: absolute; top:350px; left: 296px; width:280px; height:60px">
         <label for="event-price">Cost (in CAD)<hr>:</label>
         <input type="money" name="event-price" />
-
-
+    
+        
 
 </DIV>
 
@@ -71,10 +70,10 @@
     <button type="submit" value="Submit"> Submit</button>
 </DIV>
 
-<DIV class ="cancel" style= "position: absolute; top:560px; left: 650px;" >
-<!--                <p> click cancel and go back to main page</p>-->
-                <button type="cancel" value="Submit"> Cancel creation</button>
-            </DIV>
+<!--<DIV class ="cancel" style= "position: absolute; top:560px; left: 650px;" >-->
+<!--&lt;!&ndash;                <p> click cancel and go back to main page</p>&ndash;&gt;-->
+<!--                <button type="cancel" value="Submit"> Cancel creation</button>-->
+<!--            </DIV>-->
 
 <DIV class= "name">
         <p3>Event name </p3>
@@ -86,10 +85,11 @@
 </div1>
 
 
-<div id="calendar"></div>
-<!--<div class="calendar" style="position: absolute;">-->
-<!--                <iframe src="https://calendar.google.com/calendar/embed?src=kaifridayzhao%40gmail.com&ctz=America%2FWinnipeg"width="700" height="600" frameborder="0" ></iframe>-->
-<!--             </div>-->
+<div id="calendar">
+</div>
+<div class="calendar" style="position: absolute;">
+        <iframe src="https://calendar.google.com/calendar/embed?src=discoverthepeg%40gmail.com&ctz=America%2FWinnipeg" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+               </div>
 
 <!--             <div class="weather" >-->
 <!--                    <a class="weatherwidget-io" href="https://forecast7.com/en/49d90n97d14/winnipeg/" data-label_1="WINNIPEG, MB" data-label_2="WEATHER" data-theme="original" style="left: 0px; top:-300px;">WINNIPEG WEATHER</a>-->
@@ -109,12 +109,12 @@
 
 <div class = "tomain" style="position: fixed; top: 200px">
 <!--        <p> Click "go back" take you back to main page</p>-->
-        <button type = "main">Go back to the main page</button>
+    <a href="../index.html">  <button type = "main">Go back to the main page</button></a>
     </div>
 
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="../assets/js/index.js"></script>
-<script src="../assets/js/jquery.e-calendar.js"></script>
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+<!--<script src="../assets/js/index.js"></script>-->
+<!--<script src="../assets/js/jquery.e-calendar.js"></script>-->
 </body>
 </html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+
+<head id="home">
+    <title> Discover the Peg - Calendar </title>
+    <meta name="description" content="A system for new people in Winnipeg" />
+    <meta name="keywords" content="Winnipeg, Manitoba, Canada, events, tourist attractions, calendar" />
+<!--    <link href = "../assets/css/main.css" type="text/css" rel="stylesheet" />-->
+    <link href="../menuBar.css" type="text/css" rel="stylesheet" />
+    <link href="../assets/css/calendarPage.css" type="text/css" rel="stylesheet"/>
+
+</head>
+
+
+<body>
+<header>
+    <!-- <img id="logo" src="assets/img/logos/logo.png" alt="Discover the Peg logo"> -->
+    <h1><b>DISCOVER THE PEG</b></h1>
+    <h6>Event Calendar</h6>
+</header>
+
+<!--- menu bar --->
+<div class="topnav" id="myTopnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="../events/eventmain.html">Events</a>
+    <a href="#">Places to Shop</a>
+    <div class="dropdown">
+        <button class="dropbtn">Login/Register
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="../loginAndReg/logging.html">Login</a>
+            <a href="../loginAndReg/registering.html">Register</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a class="dropbtn" href="../sights/index.html">Sights to See
+            <i class="fa fa-caret-down"></i>
+        </a>
+        <div class="dropdown-content">
+            <a href="../sights/index.html">Sights to See</a>
+            <a href="../sights/historical.html">Historical places</a>
+            <a href="#">Galleries</a>
+            <a href="#">Nature and Parks</a>
+        </div>
+    </div>
+    <a href="../contactUs/index.html">Contact Us</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div class="eventsList" id="set1">
+    <div class="upcoming">
+        <h2>Upcoming Events</h2>
+        <a href="../events/eventpage.html">
+            <div class="event">
+                <h4>Disney On Ice</h4>
+            <img src="../assets/img/calendar/event1.jpg">
+            </div>
+        </a>
+        <div class="event">
+            <h4>Charlie Brown Christmas</h4>
+        <img src="../assets/img/calendar/event2.jpg">
+        </div>
+    </div>
+</div>
+
+<div class="calendar">
+    <img src="../assets/img/calendar/calendar.png" usemap="#image-map">
+    <map name="image-map">
+        <area target="" alt="" title="" href="index.html" onclick="showEvent()" coords="100,650,2,550" shape="rect">
+    </map>
+</div>
+
+<div class="nov24 event" id="set2">
+    <h2>Events on November 24</h2>
+    <h4> Infected Mushroom</h4>
+    <img src="../assets/img/calendar/eventSpec.jpeg">
+</div>
+
+<div class="upcomingButton" id="buttonShow">
+    <button onclick="showUpcoming()"> Show Upcoming Events </button>
+
+</div>
+
+
+<footer>
+    <br />
+    <h2>#DiscoverThePeg</h2>
+    <h2 class= comments> <br />Questions? Suggestions? </h2>
+    <!--Change the webmaster email to the whatever email we come up with.-->
+    <p class = comments>Feel free to <a href="mailto:discoverthepeg@gmail.com">email us</a> or call 204-322-00xx.<br></p>
+</footer>
+
+
+<script>
+    function showUpcoming() {
+        var x = document.getElementById("set1");
+        var y = document.getElementById("set2");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            y.style.display = "none";
+        }
+    }
+    function showEvent() {
+        var x = document.getElementById("set1");
+        var y = document.getElementById("set2");
+        var z = document.getElementById("buttonShow");
+
+        if (y.style.display === "none") {
+            y.style.display = "block";
+            x.style.display = "none";
+            z.style.display = "block";
+        }
+    }
+</script>
+
+</body>
