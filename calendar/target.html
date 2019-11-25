@@ -52,9 +52,10 @@
 
 <!--<div class="row">
   <div class="leftcolumn">-->
+<button style = "block"><a href="index.html">Back</a></button>
 <div class="eventsList" id="set1">
     <div class="upcoming">
-        <h2>Upcoming Events</h2>
+        <h2>Event on November 24th</h2>
         <a href="../events/eventpage.html">
             <div class="event">
                 <h4>Disney On Ice</h4>
@@ -62,8 +63,10 @@
             </div>
         </a>
         <div class="event">
-            <h4>Charlie Brown Christmas</h4>
-        <img src="../assets/img/calendar/event2.jpg">
+        <!--    <h4>Charlie Brown Christmas</h4>
+        <img src="../assets/img/calendar/event2.jpg">-->
+        <h4> Infected Mushroom</h4>
+        <img src="../assets/img/calendar/eventSpec.jpeg">
         </div>
     </div>
 </div>
@@ -83,11 +86,11 @@
     </map>
 </div>
 
-<div class="event" id="set2">
+<!--<div class="event" id="set2">
     <h2>Events on November 24</h2>
     <h4> Infected Mushroom</h4>
     <img src="../assets/img/calendar/eventSpec.jpeg">
-</div>
+</div>-->
 
 <div class="upcomingButton" id="buttonShow">
     <button onclick="showUpcoming()"> Show Upcoming Events </button>
@@ -105,12 +108,13 @@
 
 <script>
     function showUpcoming() {
-        var x = document.getElementById("set1");
+        /*var x = document.getElementById("set1");
         var y = document.getElementById("set2");
         if (x.style.display === "none") {
             x.style.display = "block";
             y.style.display = "none";
-        }
+        }*/
+        window.open('index.html')
     }
     function showEvent() {
         /*var x = document.getElementById("set1");
