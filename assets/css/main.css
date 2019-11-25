@@ -155,7 +155,7 @@ li a:hover:not(.active){
     width: 60%;
     padding: 2px;
     float: right;
-    height: 1100px;
+    height: 1150px;
     background-color: grey;
 }
 
@@ -178,17 +178,17 @@ li a:hover:not(.active){
     margin-bottom: 5px;
 
 }
-/*
+
 .calendar{
     width: 35%;
     float: left;
-    height: 575px;
+    height: auto;
     margin-top: 5px;
     margin-left: 0;
-    padding: 2px;
+    /*padding: 2px;*/
     background-color: grey;
 }
-*/
+
 
 footer{
     width: 100%;
