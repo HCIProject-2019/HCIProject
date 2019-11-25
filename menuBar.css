@@ -7,11 +7,15 @@
     /*background-color: rgb(0,183,183);*/
     background: url("img/night_photo_banner.png");
     background-size: cover;
-    padding: 20px;
+    /*padding: 100px; */
     text-align: center;
     font-size: 25px;
     color: white;
     font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+a{
+  color:white;
 }
 body {
   background-color:white;
