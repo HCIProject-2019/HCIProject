@@ -246,7 +246,7 @@ function createCalendar(calendar, element, adjuster){
       }
       day.appendChild(number);
       // If Today..
-      if((i+1) == calendar.Today.getDate() && calendar.Selected.Month == calendar.Today.Month && calendar.Selected.Year == calendar.Today.Year){
+      if((i+1) == 24 && calendar.Selected.Month == calendar.Today.Month && calendar.Selected.Year == calendar.Today.Year){
         day.className += " today";
       }
       days.appendChild(day);
