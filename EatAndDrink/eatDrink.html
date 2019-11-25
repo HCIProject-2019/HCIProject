@@ -1,60 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Discover the Peg - Human Rights Museum</title>
+<title>Discover the Peg - Restaurant</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="human.css">
-<link rel="stylesheet" type="text/css" href="gallery.css">
+<link rel="stylesheet" type="text/css" href="/home/w0lf7/HCIProject/sights/historical.css">
+<link rel="stylesheet" type="text/css" href="/home/w0lf7/HCIProject/sights/human.css">
+<link rel="" type="" href="/home/w0lf7/HCIProject/menuBar.css">
 </head>
-<body>
-<div class="header">
-  <h1>DISCOVER THE PEG</h1>
-  <h4>EAT AND DRINK</h4>
-</div>
-<div class="topnav" id="myTopnav">
-  <a  href="index.html">Home</a>
-  <a href="../events/eventmain.html">Events</a>
-  <a href="eatDrink.html">Eat and Drink</a>
-  <div class="dropdown">
-    <button class="dropbtn">Login/Register
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="../loginAndReg/logging.html">Login</a>
-      <a href="../loginAndReg/registering.html">Register</a>
-    </div>
-  </div>
-  <div class="dropdown">
-    <a class="dropbtn" style="background-color: grey" href="index.html">Sights to See
-      <i class="fa fa-caret-down"></i>
-    </a>
-    <div class="dropdown-content">
-      <a href="index.html">Sights to See</a>
-      <a href="historical.html">Historical places</a>
-      <a href="Galleries.html">Galleries</a>
-      <a href="#">Nature and Parks</a>
-    </div>
-  </div>
-  <a href="../contactUs/index.html">Contact Us</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
 
-<!---add some footer--->
-<footer>
-    <br />
-    <h2>#DiscoverThePeg</h2>
-    <h2 class= comments> <br />Questions? Suggestions? </h2>
-    <!--Change the webmaster email to the whatever email we come up with.-->
-    <p class = comments>Feel free to <a href="mailto:discoverthepeg@gmail.com">email us</a> or call 204-322-00xx.<br></p>
-</footer>
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
+<body>
+  <div class="header">
+      <h1>DISCOVER THE PEG</h1>
+      <h4>Retaurants</h4>
+  </div>
+  <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="../events/eventmain.html">Events</a>
+      <a href="#">Places to Shop</a>
+      <div class="dropdown">
+          <button class="dropbtn">Login/Register
+              <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+              <a href="../loginAndReg/logging.html">Login</a>
+              <a href="../loginAndReg/registering.html">Register</a>
+          </div>
+      </div>
+      <div class="dropdown">
+          <a class="dropbtn" style="background-color: grey" href="../sights/index.html">Sights to See
+              <i class="fa fa-caret-down"></i>
+          </a>
+          <div class="dropdown-content">
+              <a href="/home/w0lf7/HCIProject/sights/index.html">Sights to See</a>
+              <a href="/home/w0lf7/HCIProject/sights/historical.html">Historical places</a>
+              <a href="/home/w0lf7/HCIProject/sights/Galleries.html">Galleries</a>
+              <a href="#">Nature and Parks</a>
+          </div>
+      </div>
+      <a href="../contactUs/index.html">Contact Us</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  <!--- image side by side --->
+  <div class="row">
+    <div class="column">
+      <img src="/home/w0lf7/HCIProject/EatAndDrink/img/boston pizza.png" style="width:100%">
+      <p><b>boston pizza</b></p>
+    </div>
+    <div class="column">
+      <img src="/home/w0lf7/HCIProject/EatAndDrink/img/earl kitchen + bar.png" style="width:100%">
+      <p><b>earl kitchen bar</b></p>
+    </div>
+    <div class="column">
+      <img src= "/home/w0lf7/HCIProject/EatAndDrink/img/Johnny.png" style="width:100%">
+      <p><b>Johnny G's Restaurant & Bar</b></p>
+    </div>
+    <div class="column">
+      <img src="/home/w0lf7/HCIProject/EatAndDrink/img/The Black Bird Brasserie.png" style="width:100%">
+      <p><b>The Black Bird Brasserie</b></p>
+    </div>
+    <div class="column">
+      <img src="/home/w0lf7/HCIProject/EatAndDrink/img/the palm lounge.png" style="width:100%">
+      <p><b>the palm lounge</b></p>
+    </div>
+    <div class="column" style = "position:absolute; top:591px;">
+      <img src="/home/w0lf7/HCIProject/EatAndDrink/img/Thida's Thai Restaurant.png" style="width:99%; height: 242px;">
+      <p><b>Thida's Thai Restaurant</b></p>
+    </div>
+  </div>
+  <!---add some footer--->
+  <footer>
+      <br />
+      <h2>#DiscoverThePeg</h2>
+      <h2 class= comments> <br />Questions? Suggestions? </h2>
+      <!--Change the webmaster email to the whatever email we come up with.-->
+      <p class = comments>Feel free to <a href="mailto:discoverthepeg@gmail.com">email us</a> or call 204-322-00xx.<br></p>
+  </footer>
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
   }
-}
-</script>
+  </script>
 </body>
