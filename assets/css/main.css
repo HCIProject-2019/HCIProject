@@ -180,13 +180,17 @@ li a:hover:not(.active){
 }
 
 .calendar{
-    width: 35%;
+    width: 40%;
     float: left;
     height: auto;
     margin-top: 5px;
     margin-left: 0;
     /*padding: 2px;*/
     background-color: grey;
+}
+
+.calendar img{
+    width: 100%;
 }
 
 
