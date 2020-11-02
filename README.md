@@ -1,6 +1,6 @@
 # **Entertainment system for new people**
 ## Purpose
-This is a group project for our HCI course (COMP 3020) in University of Manitoba. This project build a webase system introduce people to places/restaurants to hang out in Winnipeg.
+This is a group project for the COMP 3020 (Human-Computer Interaction) course at the University of Manitoba. We built a web-based application to introduce people to places/restaurants to hang out in Winnipeg. This project included researching our ideal target audience, what they would want to see in such an application, and how they may use it in everyday life. We relied heavily upon the principles of HCI to design this application. 
 
 ## Notes
 * To interact with this website, please open the index.html located with this README file.
